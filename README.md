@@ -27,7 +27,8 @@ Welcome to "Normal Checkers"
     If a piece manages to make it to the opposing player's border, that piece gets promoted to a King
     Kings can move diagonally forwards or backwards, but all the other movement rules still apply.
 
-    Your turn ends after moving a piece. However, if you have just captured a piece, you may move that piece again but only if there is another available piece you could capture.
+    Your turn ends after moving a piece. However, if you have just captured a piece, you may move that piece again 
+    but only if there is another available piece you could capture.
     
     The game ends when one player runs out of pieces to play with.
     The player who captures all their opponent's pieces wins.
@@ -35,7 +36,7 @@ Welcome to "Normal Checkers"
     The active player's pieces will be highlighted with a green border.
     When a piece is selected, the game board will light up with that piece's valid moves. 
     Green squares indicate a legal move
-    Red squares indicate a legal captureing move. 
+    Red squares indicate a legal capturing move. 
     If followup moves are possible, the game will automatically highlight the valid available moves. 
     If there are none, it will pass the turn.
     If a piece is Kinged, it will gain a gold border, and will automatically highlight its new movement powers.
