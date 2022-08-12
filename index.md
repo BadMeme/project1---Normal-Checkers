@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-7">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="project1.js" defer></script>
+    <!--<script src=""></script>-->
 
-You can use the [editor on GitHub](https://github.com/BadMeme/project1---Normal-Checkers/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+</head>
+<body>
+    <h1>Checkers</h1>
+    <table class="gameboard-wrapper">
+        <tr>
+            <td class="tile black-tile" id="(0, 7)"></td><td class="tile white-tile" id="(1, 7)"></td><td class="tile black-tile" id="(2, 7)"></td><td class="tile white-tile" id="(3, 7)"></td>
+            <td class="tile black-tile" id="(4, 7)"></td><td class="tile white-tile" id="(5, 7)"></td><td class="tile black-tile" id="(6, 7)"></td><td class="tile white-tile" id="(7, 7)"></td>
+        </tr>
+        <tr>
+            <td class="tile white-tile" id="(0, 6)"></td><td class="tile black-tile" id="(1, 6)"></td><td class="tile white-tile" id="(2, 6)"></td><td class="tile black-tile" id="(3, 6)"></td>
+            <td class="tile white-tile" id="(4, 6)"></td><td class="tile black-tile" id="(5, 6)"></td><td class="tile white-tile" id="(6, 6)"></td><td class="tile black-tile" id="(7, 6)"></td>
+        </tr>
+        <tr>
+            <td class="tile black-tile" id="(0, 5)"></td><td class="tile white-tile" id="(1, 5)"></td><td class="tile black-tile" id="(2, 5)"></td><td class="tile white-tile" id="(3, 5)"></td>
+            <td class="tile black-tile" id="(4, 5)"></td><td class="tile white-tile" id="(5, 5)"></td><td class="tile black-tile" id="(6, 5)"></td><td class="tile white-tile" id="(7, 5)"></td>
+        </tr>
+        <tr>
+            <td class="tile white-tile" id="(0, 4)"></td><td class="tile black-tile" id="(1, 4)"></td><td class="tile white-tile" id="(2, 4)"></td><td class="tile black-tile" id="(3, 4)"></td>
+            <td class="tile white-tile" id="(4, 4)"></td><td class="tile black-tile" id="(5, 4)"></td><td class="tile white-tile" id="(6, 4)"></td><td class="tile black-tile" id="(7, 4)"></td>
+        </tr>
+        <tr>
+            <td class="tile black-tile" id="(0, 3)"></td><td class="tile white-tile" id="(1, 3)"></td><td class="tile black-tile" id="(2, 3)"></td><td class="tile white-tile" id="(3, 3)"></td>
+            <td class="tile black-tile" id="(4, 3)"></td><td class="tile white-tile" id="(5, 3)"></td><td class="tile black-tile" id="(6, 3)"></td><td class="tile white-tile" id="(7, 3)"></td>        
+        </tr>
+        <tr>
+            <td class="tile white-tile" id="(0, 2)"></td><td class="tile black-tile" id="(1, 2)"></td><td class="tile white-tile" id="(2, 2)"></td><td class="tile black-tile" id="(3, 2)"></td>
+            <td class="tile white-tile" id="(4, 2)"></td><td class="tile black-tile" id="(5, 2)"></td><td class="tile white-tile" id="(6, 2)"></td><td class="tile black-tile" id="(7, 2)"></td>
+        </tr>
+        <tr>
+            <td class="tile black-tile" id="(0, 1)"></td><td class="tile white-tile" id="(1, 1)"></td><td class="tile black-tile" id="(2, 1)"></td><td class="tile white-tile" id="(3, 1)"></td>
+            <td class="tile black-tile" id="(4, 1)"></td><td class="tile white-tile" id="(5, 1)"></td><td class="tile black-tile" id="(6, 1)"></td><td class="tile white-tile" id="(7, 1)"></td>
+        </tr>
+        <tr>
+            <td class="tile white-tile" id="(0, 0)"></td><td class="tile black-tile" id="(1, 0)"></td><td class="tile white-tile" id="(2, 0)"></td><td class="tile black-tile" id="(3, 0)"></td>
+            <td class="tile white-tile" id="(4, 0)"></td><td class="tile black-tile" id="(5, 0)"></td><td class="tile white-tile" id="(6, 0)"></td><td class="tile black-tile" id="(7, 0)"></td>
+        </tr>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    </table>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BadMeme/project1---Normal-Checkers/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    
+    </div>
+    <div class="reset-button"><input type="button" value="New Game (Reset)" onclick = gameStart()></div>
