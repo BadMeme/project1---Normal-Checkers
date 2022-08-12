@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    /* if an element has a size CSS will constrain content to fit within the box */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+
+.gameboard-wrapper{
+    border: 2px solid black;
+    background-color: darkslateblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 440px;
+    gap: 1.5%;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center
+}
+
+.tile{
+    width: 50px ;
+    height: 50px;
+    border: 1px solid grey;
+    
+    font-size: 20px;
+}
+
+.black-tile{
+    background-color: black;
+    color: white;
+}
+
+.white-tile{
+    background-color: white;
+    color: black;
+}
+
+.Blue{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background-color: rgb(50, 50, 133);
+    border: 3px solid gray;
+    border-radius: 45px;
+}
+
+.Red{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background-color: rgb(233, 105, 96);
+    border: 3px solid gray;
+    border-radius: 45px;
+}
+
+.promoted{
+    border: 5px solid gold;    
+}
+
+.active{
+    border-color: greenyellow;
+
+}
+
+.move-indicator{
+    background-color: greenyellow;
+}
+
+.capture-indicator{
+    background-color: orangered;
+}
+
