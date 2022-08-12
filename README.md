@@ -1,5 +1,3 @@
-- **A `README.md` file** with these sections:
-
 
 Welcome to "Normal Checkers"
 
